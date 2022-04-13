@@ -1,7 +1,9 @@
-# rss service
-DOMAIN-SUFFIX,rss.edge.mexii.one
 # notion service
 DOMAIN-SUFFIX,notion.so
 # CERNET/教育网
 DOMAIN-SUFFIX,bt.byr.cn
-DOMAIN-SUFFIX,nju.edu.cn
+DOMAIN-SUFFIX,edu.cn
+# Custom
+DOMAIN-SUFFIX,zhihuishu.com
+DOMAIN-SUFFIX,icourse163.org
+DOMAIN-SUFFIX,chaoxing.com

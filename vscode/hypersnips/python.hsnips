@@ -1,0 +1,5 @@
+# sp is Snippet
+snippet sp_cur "(snip)block that execute the current file" iA
+if __name__ == '__main__':
+    $0
+endsnippet

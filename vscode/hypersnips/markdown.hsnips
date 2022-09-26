@@ -68,6 +68,17 @@ function createTable(rows, cols) {
 
 endglobal
 
+# MARK:= Markdown =
+
+# \` is called grave accent
+snippet mdcode "Markdown Code Block" wA
+``rv = "\`\`\`"``$1
+$2
+``rv = "\`\`\`"``$0
+endsnippet
+
+
+# MARK:= Math Support =
 
 # MARK:== Fraction Match ==
 

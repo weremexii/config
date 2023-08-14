@@ -234,6 +234,7 @@ snippet mcal "mathcal" iAm
 \mathcal{$1}$0
 endsnippet
 
+priority 100
 snippet mbb "mathbb" iAm
 \mathbb{$1}$0
 endsnippet
@@ -402,7 +403,7 @@ snippet tto "to" iAm
 endsnippet
 
 priority 200
-snippet `(?<=\b|\d+)(?<!\\)(cap|cup|land|lor|lnot|oplus|sqcap|sqcup|vdash|models)` "logic operator" wAm
+snippet `(?<=\b|\d+)(?<!\\)(cap|cup|land|lor|lnot|oplus|otimes|sqcap|sqcup|vdash|models)` "logic operator" wAm
 \\``rv = m[1]`` 
 endsnippet
 
@@ -514,7 +515,7 @@ snippet case "cases" wAm
 \end{cases}
 endsnippet
 
-snippet ali "aligned" wAm
+snippet ali "align environment without auto label" wAm
 \begin{aligned}
 $1 \\\\
 \end{aligned}
@@ -639,7 +640,7 @@ endsnippet
 # MARK:======== Common Operator Snippet ========
 
 snippet `(?<!\\)sum` "sum" wAm
-\sum\limits_{n=${1:1}}^{${2:\infty}} ${3:a_n z^n}
+\sum_{n=${1:1}}^{${2:\infty}} ${3:a_n z^n}
 endsnippet
 
 snippet taylor "taylor" wAm
@@ -677,7 +678,7 @@ snippet dint "integral" wAm
 endsnippet
 
 priority 200
-snippet `c(o|n)?(l|n)?(b|c)?int` "s 	egral" wAm
+snippet `c(o|n)?(l|n)?(b|c)?int` "segral" wAm
 ``
 let final = "\\"; // init
 let isO = m[1] == "o";
@@ -702,6 +703,10 @@ endsnippet
 priority 100
 snippet `(?<![\a-zA-Z])(rank|lcm|gcd)` "math function" wAm
 \\operatorname{``rv = m[1]``}
+endsnippet
+
+snippet `(?<![\a-zA-Z])(max|min)` "maximize or minimize" wAm
+\\``rv = m[1]``_{$1}$0
 endsnippet
 
 snippet `(?<![\a-zA-Z])arg(max|min)` "argmin/max" wAm

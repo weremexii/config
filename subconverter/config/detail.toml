@@ -189,10 +189,6 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.
 interval = 86400
 [[rulesets]]
 group = "📚 学术平台"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
-interval = 86400
-[[rulesets]]
-group = "📚 学术平台"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Scholar.list"
 interval = 86400
 [[rulesets]]

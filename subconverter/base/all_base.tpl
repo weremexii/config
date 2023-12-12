@@ -6,6 +6,7 @@ allow-lan: {{ default(global.clash.allow_lan, "false") }}
 mode: Rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: :9090
+ipv6: {{ default(request.clash.enable_ipv6, "false") }}
 {% if default(request.clash.dns, "") == "1" %}
 dns:
   enabled: true

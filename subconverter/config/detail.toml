@@ -204,6 +204,10 @@ group = "📚 AI相关"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ClaudeAI.list"
 interval = 86400
 [[rulesets]]
+group = "📚 AI相关"
+ruleset = "https://raw.githubusercontent.com/weremexii/dotfile/master/subconverter/ruleset/addition_ai.list"
+interval = 86400
+[[rulesets]]
 group = "📲 电报消息"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
 interval = 86400

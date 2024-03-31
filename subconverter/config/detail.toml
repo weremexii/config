@@ -4,7 +4,7 @@ enable_rule_generator = true
 overwrite_original_rules = true
 
 # Options for custom base configuration file
-clash_rule_base = "https://raw.githubusercontent.com/weremexii/dotfile/master/subconverter/base/all_base.tpl"
+clash_rule_base = "https://raw.githubusercontent.com/weremexii/dotfile/master/subconverter/base/clash_dns.tpl"
 surge_rule_base = "https://raw.githubusercontent.com/weremexii/dotfile/master/subconverter/base/all_base.tpl"
 surfboard_rule_base = "https://raw.githubusercontent.com/weremexii/dotfile/master/subconverter/base/all_base.tpl"
 mellow_rule_base = "https://raw.githubusercontent.com/weremexii/dotfile/master/subconverter/base/all_base.tpl"
@@ -62,7 +62,7 @@ name = "🎮 游戏代理"
 type = "select"
 rule = ["[]🚀 节点选择", "[]♻️ 自动选择", "[]DIRECT", "[]🇭🇰 香港节点", "[]🇨🇳 台湾节点", "[]🇸🇬 狮城节点", "[]🇯🇵 日本节点", "[]🇺🇲 美国节点", "[]🇰🇷 韩国节点", "[]🚀 手动切换", "[]💫 高倍率节点", "[]🛫 负载均衡"]
 [[custom_groups]]
-name = "🧑‍💻 GitHub"
+name = "💻 GitHub"
 type = "select"
 rule = ["[]🚀 节点选择", "[]♻️ 自动选择", "[]DIRECT", "[]🇭🇰 香港节点", "[]🇨🇳 台湾节点", "[]🇸🇬 狮城节点", "[]🇯🇵 日本节点", "[]🇺🇲 美国节点", "[]🇰🇷 韩国节点", "[]🚀 手动切换", "[]💫 高倍率节点", "[]🛫 负载均衡"]
 [[custom_groups]]
@@ -195,9 +195,11 @@ interval = 86400
 group = "📚 学术平台"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Scholar.list"
 interval = 86400
+[[rulesets]]
 group = "📚 AI相关"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
 interval = 86400
+[[rulesets]]
 group = "📚 AI相关"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ClaudeAI.list"
 interval = 86400
@@ -210,7 +212,7 @@ group = "🎮 游戏代理"
 ruleset = "https://raw.githubusercontent.com/weremexii/dotfile/master/subconverter/ruleset/game_proxy.list"
 interval = 86400
 [[rulesets]]
-group = "🧑‍💻 GitHub"
+group = "💻 GitHub"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
 interval = 86400
 [[rulesets]]
